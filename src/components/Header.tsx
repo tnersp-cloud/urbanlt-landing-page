@@ -20,6 +20,7 @@ const Header = () => {
             <a href="#shared-core" className="hover:text-white transition-colors duration-200">Infrastructure</a>
             <a href="#ecosystem" className="hover:text-white transition-colors duration-200">Verticals</a>
             <a href="#market-data" className="hover:text-white transition-colors duration-200">Market Data</a>
+            <a href="#enterprise" className="hover:text-white transition-colors duration-200">Enterprise</a>
             <a href="#trust" className="hover:text-white transition-colors duration-200">Trust</a>
           </div>
         </div>
@@ -48,6 +49,7 @@ const Header = () => {
           <a href="#shared-core" className="text-zinc-400 hover:text-white text-sm font-medium transition-colors" onClick={() => setIsOpen(false)}>Infrastructure</a>
           <a href="#ecosystem" className="text-zinc-400 hover:text-white text-sm font-medium transition-colors" onClick={() => setIsOpen(false)}>Verticals</a>
           <a href="#market-data" className="text-zinc-400 hover:text-white text-sm font-medium transition-colors" onClick={() => setIsOpen(false)}>Market Data</a>
+          <a href="#enterprise" className="text-zinc-400 hover:text-white text-sm font-medium transition-colors" onClick={() => setIsOpen(false)}>Enterprise</a>
           <a href="#trust" className="text-zinc-400 hover:text-white text-sm font-medium transition-colors" onClick={() => setIsOpen(false)}>Trust</a>
           <a
             href="#contact"

@@ -5,6 +5,7 @@ import SharedCore from './components/SharedCore';
 import BentoEcosystem from './components/BentoEcosystem';
 import MarketData from './components/MarketData';
 import TrustSection from './components/TrustSection';
+import EnterpriseServices from './components/EnterpriseServices';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <SharedCore />
         <BentoEcosystem />
         <MarketData />
+        <EnterpriseServices />
         <TrustSection />
       </main>
       <Footer />
